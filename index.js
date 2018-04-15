@@ -11,4 +11,7 @@ function BoardMember (name, homeState, training) {
     this.doCharity = function () {
       console.log("You can do that!")
     }
+    this.doCharity = function () {
+      console.log("I like to help people.")
+    }
 }
