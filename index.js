@@ -17,4 +17,7 @@ function BoardMember (name, homeState, training) {
     this.releasePressStatement = function () {
       console.log("You will see great things from Scuber.")
     }
+    this.sayHi = function () {
+      console.log("Hi, my name is "+ this.name + " I am from "+ this.training+ ", and I was trained in <training>.")
+    }
 }
