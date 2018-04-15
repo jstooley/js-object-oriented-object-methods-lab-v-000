@@ -3,7 +3,7 @@ function BoardMember (name, homeState, training) {
     this.homeState = homeState
     this.training = training
     this.veto = function () {
-      console.log("No, I must disagree")
+      return "No, I must disagree"
     }
     this.approve = function () {
       console.log("You can do that!")
@@ -19,7 +19,7 @@ function BoardMember (name, homeState, training) {
     }
     this.sayHi = function () {
       console.log("Hi, my name is "+ this.name
-      + " I am from "+ this.homeState + ", and I was trained in " 
+      + " I am from "+ this.homeState + ", and I was trained in "
       + this.training + ".")
     }
 }
